@@ -1,0 +1,20 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sesuaikan dengan tinggi yang diinginkan */
+  }
+  
+  .wave-container {
+    position: relative;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Sesuaikan ukuran font yang diinginkan */
+    color: #ffffff; /* Ganti warna sesuai kebutuhan */
+  }
+  
